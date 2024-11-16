@@ -2,7 +2,6 @@ import { Moon, Sun } from "lucide-react";
 import { useTheme } from "../GlobalContext";
 import { ClassValue } from "clsx";
 
-import { cn } from "@/lib/utils";
 import Button from "./Button";
 
 export function ThemeSwitcher({ className }: { className?: ClassValue }) {

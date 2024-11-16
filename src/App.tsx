@@ -4,7 +4,6 @@ import Avatar from "@/components/Avatar";
 import Box from "./components/Box";
 import { Tv } from "lucide-react";
 import { useState } from "react";
-import Button from "@/components/Button";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState<string>("");
@@ -47,7 +46,7 @@ function LeftBody() {
 function TestBody({
   setSelectedCategory,
 }: {
-  setSelectedCategory: (string) => void;
+  setSelectedCategory: (str: string) => void;
 }) {
   return (
     <div
